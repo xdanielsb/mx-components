@@ -1,9 +1,12 @@
 {
-  "name": "mx-angular-inputs",
-  "version": "0.0.1",
+  "name": "mx-angular",
+  "version": "1.0.0",
+  "author": "xdanielsb" ,
+  "homepage": "https://github.com/xdanielsb/matrix-components/",
   "peerDependencies": {
     "@angular/common": "^18.1.0",
-    "@angular/core": "^18.1.0"
+    "@angular/core": "^18.1.0",
+    "@angular/material": "^18.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"

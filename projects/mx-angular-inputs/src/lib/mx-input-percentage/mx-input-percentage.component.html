@@ -1,0 +1,14 @@
+<div
+  class="percentage-input"
+  [formGroup]="form"
+  (focusin)="onFocusIn()"
+  (focusout)="onFocusOut($event)"
+>
+  <input
+    #percentage
+    type="number"
+    formControlName="percentage"
+    (input)="_handleInput(form.controls.percentage, percentage)"
+  />
+  <span>&percnt;</span>
+</div>
