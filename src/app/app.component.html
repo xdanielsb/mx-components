@@ -1,1 +1,12 @@
-<lib-mx-input-number></lib-mx-input-number>
+<form [formGroup]="form">
+  <mat-form-field [appearance]="'outline'">
+    <mat-label>{{ "Percentage" }}</mat-label>
+    <mx-input-percentage formControlName="percentage"></mx-input-percentage>
+    @if (this.form.controls["percentage"].invalid) {
+      <mat-error>{{ "Invalid percentage" }}</mat-error>
+    }
+    <mat-icon matSuffix>percent</mat-icon>
+  </mat-form-field>
+</form>
+
+<p>Entered value: {{ form.valueChanges | async | json }}</p>

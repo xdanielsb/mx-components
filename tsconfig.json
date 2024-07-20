@@ -4,16 +4,13 @@
   "compileOnSave": false,
   "compilerOptions": {
     "outDir": "./dist/out-tsc",
-    "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "paths": {
-      "mx-angular-inputs": [
-        "./dist/mx-angular-inputs"
-      ]
+      "mx-angular-inputs": ["./dist/mx-angular-inputs"]
     },
     "esModuleInterop": true,
     "sourceMap": true,
@@ -23,10 +20,7 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
-    "lib": [
-      "ES2022",
-      "dom"
-    ]
+    "lib": ["ES2022", "dom"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
